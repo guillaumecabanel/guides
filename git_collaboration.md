@@ -1,5 +1,7 @@
 # Using git collaboration for Rails app
 
+:warning: Always check that your *status* is **clean** before changing branch.
+
 ## Get last master from github
 On master:
 ```
@@ -45,7 +47,3 @@ On master:
 git pull origin master
 git sweep
 ```
-
-## Warning
-
-Always check that your *status* is **clean** before changing branch.
