@@ -1,11 +1,19 @@
-# Using git for collaboration
+# Using git collaboration for Rails app
+
+## Get last master from github
+On master:
+```
+git pull origin master
+bundle install
+rails db:migrate
+rails db:seed
+```
 
 ## Start a new branch
 ```
 git pull origin master
 git checkout -b NEW_BRANCH_NAME
 ```
-
 
 ## Push a branch on github
 ```
@@ -31,6 +39,13 @@ git merge master
 ```
 
 In case of conflict use `git status` to see conlicting files.
+
+## Clean old branches
+On master:
+```
+git pull origin master
+git sweep
+```
 
 ## Warning
 
