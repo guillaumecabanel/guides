@@ -31,9 +31,8 @@ In case of conflict use `git status` to see conlicting files.
 ## Update master while still working on a branch
 ```
 git add .
-git commit -m ‘’
-git status
-git checkout master (or gcm)
+git commit -m "MESSAGE"
+git checkout master
 git pull origin master
 git checkout BRANCH_NAME
 git merge master
