@@ -6,7 +6,6 @@ On master:
 git pull origin master
 bundle install
 rails db:migrate
-rails db:seed
 ```
 
 ## Start a new branch
