@@ -35,7 +35,7 @@ git commit -m ‘’
 git status
 git checkout master (or gcm)
 git pull origin master
-git checkout branch_name
+git checkout BRANCH_NAME
 git merge master
 ```
 
