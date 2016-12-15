@@ -20,13 +20,9 @@ git checkout -b NEW_BRANCH_NAME
 ```
 git add .
 git commit -m "MESSAGE"
-git checkout master
-git pull origin master
-git checkout BRANCH_NAME
-git merge master
 git push origin BRANCH_NAME
 ```
-In case of conflict use `git status` to see conlicting files.
+In case of conflict on github, talk to your team to solve it.
 
 ## Update master while still working on a branch
 ```
