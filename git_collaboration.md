@@ -16,6 +16,12 @@ git pull origin master
 git checkout -b NEW_BRANCH_NAME
 ```
 
+## Rename a branch
+On the branch you want to rename :
+```
+git branch -m BRANCH_NAME
+```
+
 ## Push a branch on github
 ```
 git add .
@@ -41,4 +47,12 @@ On master:
 ```
 git pull origin master
 git sweep
+```
+
+## Import the branch of a team member
+On master:
+```
+git branch BRANCH_NAME
+git checkout BRANCH_NAME
+git pull origin BANCH_NAME
 ```
