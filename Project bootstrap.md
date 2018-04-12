@@ -1,4 +1,4 @@
-# Project bootstrap
+# Freelance project bootstrap
 
 These are the steps I follow when I start a new project for a client.
 
@@ -38,19 +38,7 @@ a. Create a _team_ on [Trello](https://trello.com)
 
 b. Add a board to this _team_ with at least the following lists:
 
-<table><tr>
-
-<td>TODO <br> tasks for current sprint</td>
-
-<td>In Progress <br> tasks currently developed</td>
-
-<td>Review <br> tasks waiting to be review</td>
-
-<td>Deploy <br> tasks waiting to be deployed</td>
-
-<td>Live</td>
-
-</tr></table>
+![Trello lists](https://raw.githubusercontent.com/guillaumecabanel/guides/master/Screenshot-2018-4-12%20%20Kanban%20Trello.png)
 
 _Optional_:  Add a list per sprint
 
