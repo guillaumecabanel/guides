@@ -40,15 +40,15 @@ b. Add a board to this _team_ with at least the following lists:
 
 <table><tr>
 
-<td>**TODO** <br>_tasks for current sprint_</td>
+<td>TODO <br> tasks for current sprint</td>
 
-<td>**In Progress** <br>_tasks currently developed_</td>
+<td>In Progress <br> tasks currently developed</td>
 
-<td>**Review** <br>_tasks waiting to be review_</td>
+<td>Review <br> tasks waiting to be review</td>
 
-<td>**Deploy** <br>_tasks waiting to be deployed_</td>
+<td>Deploy <br> tasks waiting to be deployed</td>
 
-<td>**Live**</td>
+<td>Live</td>
 
 </tr></table>
 
