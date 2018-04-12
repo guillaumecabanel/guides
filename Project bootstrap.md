@@ -1,4 +1,4 @@
-# Project bootsrap
+# Project bootstrap
 
 These are the steps I follow when I start a new project for a client.
 
