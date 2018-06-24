@@ -2,15 +2,14 @@
 
 Assuming you already have an application running on Clever Cloud.
 
-1. Install **Certbot**
-
-  ```sh
-  sudo apt-get update
-  sudo apt-get install software-properties-common
-  sudo add-apt-repository ppa:certbot/certbot
-  sudo apt-get update
-  sudo apt-get install certbot
-  ```
+1.  Install **Certbot**
+    ```sh
+    sudo apt-get update
+    sudo apt-get install software-properties-common
+    sudo add-apt-repository ppa:certbot/certbot
+    sudo apt-get update
+    sudo apt-get install certbot
+    ```
 
 1.  Ask for DNS challenge for your website url:
     ```sh
@@ -44,4 +43,3 @@ Assuming you already have an application running on Clever Cloud.
    # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
    config.force_ssl = true
    ```
-   
